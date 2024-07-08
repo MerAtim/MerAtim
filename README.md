@@ -1,6 +1,9 @@
-
+# _MARIA MERCEDES ATIM_
 # 💫 About Me:
-Actualmente estoy en la Tecnicatura Universitaria de Programación en la Universidad Tecnológica Nacional FRSR
+### Actualmente estoy cursando la Tecnicatura Universitaria de Programación en la Universidad Tecnológica Nacional FRSR.
+### Pude realizar cursos para la preparacion Full-Stack developer, con Java. 
+### Tambien realicé un curso de Diseño grafico implementando Adobe Illustrator y Adobe Photoshop.
+### Tambien adquirí habilidades blandas, trabajando en equipo, participando en el desarrollo de proyectos con distintas tecnologías como HTML, CSS, GIT, JAVA, JAVASCRIPT, PYTHON entre otros.
 
 
 ## 🌐 Socials:
