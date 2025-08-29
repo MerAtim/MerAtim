@@ -88,12 +88,6 @@ I'm passionate about continuous learning, teamwork, and creating impactful tech 
 
 ---
 
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=MerAtim&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
----
-
-[![](https://visitcount.itsvg.in/api?id=MerAtim&icon=9&color=6)](https://visitcount.itsvg.in)
+![Profile Views](https://komarev.com/ghpvc/?username=MerAtim&style=flat-square)
 
 <!-- Created with ❤️ by GPRM (https://gprm.itsvg.in) -->
