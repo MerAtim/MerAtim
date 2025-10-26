@@ -5,13 +5,13 @@
 ### 🇪🇸
 Actualmente curso la Tecnicatura Universitaria en Programación en la Universidad Tecnológica Nacional (UTN FRSR).  
 He realizado cursos de desarrollo Full-Stack con Java, así como también de diseño gráfico utilizando Adobe Illustrator y Adobe Photoshop.  
-He trabajado en equipos aplicando metodologías ágiles, desarrollando proyectos con tecnologías como HTML, CSS, JavaScript, Java, Python, Git, entre otras.  
+He trabajado en equipos aplicando metodologías ágiles, desarrollando proyectos con tecnologías como HTML, CSS, JavaScript, Java, Python, y diferentes frameworks, tambien controladores de versiones como GitHub, Gitlab, entre otras.  
 Me apasiona seguir aprendiendo, colaborar y crear soluciones tecnológicas que generen impacto.
 
 ### 🇬🇧
 I'm currently pursuing a Technical Degree in Programming at the National Technological University (UTN FRSR).  
 I've completed Full-Stack development courses with Java and Graphic Design courses using Adobe Illustrator and Photoshop.  
-I’ve gained experience working in teams with agile methodologies, developing projects using technologies like HTML, CSS, JavaScript, Java, Python, Git, and more.  
+I’ve gained experience working in teams with agile methodologies, developing projects using technologies like HTML, CSS, JavaScript, Java, Python, Git, several frameworks, tools and more.  
 I'm passionate about continuous learning, teamwork, and creating impactful tech solutions.
 
 ---
