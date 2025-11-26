@@ -194,11 +194,15 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
 [![Song Badge](https://img.shields.io/badge/🎧%20Listening%20to-Shania%20Twain%20--%20Whose%20Bed%20Have%20Your%20Boots%20Been%20Under%3F-pink)](https://open.spotify.com/intl-es/track/0vtvjbeDqVSDl9rdpaQK6N?si=7aa3e2c30e8c4b19)
 <br>
 <br>
-![pacman contribution graph](https://raw.githubusercontent.com/MerAtim/MerAtim/output/pacman-contribution-graph.svg#gh-light-mode-only)
-![pacman contribution graph](https://raw.githubusercontent.com/MerAtim/MerAtim/output/pacman-contribution-graph-dark.svg#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/pacman-contribution-graph.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/pacman-contribution-graph.svg" />
+</picture>
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/MerAtim/MerAtim/output/snake.svg" alt="Snake animation" />
+<img src="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
+
 
 ###
 
