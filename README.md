@@ -31,9 +31,6 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
 
 ## 🚀 Proyectos Destacados | Featured Projects
 
-- [📝 **To‑Do App**](https://github.com/MerAtim/todo-app)  
-  Aplicación en **React** con una interfaz creativa y amigable.  
-
 - [⚡ **PERN Stack**](https://github.com/MerAtim/PERNStack)  
   Proyecto **Full‑Stack** con **PostgreSQL, Express, React y Node.js**, demostrando integración completa de frontend y backend.  
 
@@ -41,7 +38,7 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
   Gestor de tareas colaborativo con **React y Node.js**, enfocado en productividad y trabajo en equipo.  
 
 - [🛒 **CapyMarket**](https://github.com/MerAtim/CapyMarket)  
-  Aplicación de **e‑commerce** con **React y PostgreSQL**, simulando un marketplace con carrito de compras y gestión de productos e integración con MercadoPago.  
+  Aplicación de **e‑commerce** con **React y PostgreSQL**, simulando un marketplace con carrito de compras y gestión de productos e integración con MercadoPago.    
 
 
 
