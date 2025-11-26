@@ -1,8 +1,9 @@
 # ✨ Maria Mercedes Atim  
+
 💻 Full Stack Developer | 🎨 Creative Designer | 📚 Lifelong Learner  
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F75C7E&width=435&lines=Full+Stack+Developer;Creative+Designer;Always+Learning;Technician+in+Programming+🚀)
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&pause=1000&color=F78BBE&random=true&width=490&lines=Full+Stack+Developer+%F0%9F%92%BB;Creative+Designer+%F0%9F%AA%85;Always+Learning+%F0%9F%A7%A0;Technician+in+Programming+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 
 ## 💫 Sobre mí | About Me
@@ -192,6 +193,10 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
 ## 🎵 Listening 🎧
 
 [![Song Badge](https://img.shields.io/badge/🎧%20Listening%20to-Shania%20Twain%20--%20Whose%20Bed%20Have%20Your%20Boots%20Been%20Under%3F-pink)](https://open.spotify.com/intl-es/track/0vtvjbeDqVSDl9rdpaQK6N?si=7aa3e2c30e8c4b19)
+
+
+![pacman contribution graph](https://raw.githubusercontent.com/MerAtim/MerAtim/output/pacman-contribution-graph.svg#gh-light-mode-only)
+![pacman contribution graph](https://raw.githubusercontent.com/MerAtim/MerAtim/output/pacman-contribution-graph-dark.svg#gh-dark-mode-only)
 
 
 ✨ *"El código es mi herramienta, la creatividad mi motor, y el aprendizaje mi camino."* ✨
