@@ -1,4 +1,4 @@
-# ✨ Maria Mercedes Atim  
+# Maria Mercedes Atim  
 
 💻 Full Stack Developer | 🎨 Creative Designer | 📚 Lifelong Learner  
 
