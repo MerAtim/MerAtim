@@ -16,6 +16,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -27,8 +30,12 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            pacman-contribution-graph.svg
+            pacman-contribution-graph-dark.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_OPTIONS: --max-old-space-size=8192  
 
       - name: move pacman files to dist
         run: |
