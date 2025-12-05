@@ -180,36 +180,42 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
 ![](https://github-readme-streak-stats.herokuapp.com/?user=MerAtim&theme=monokai&hide_border=false)  
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MerAtim&theme=monokai&hide_border=false&layout=compact)  
 
-
-
 ## 🏆 GitHub Achievements
 
-![trophy](https://github-profile-trophy.vercel.app/?username=MerAtim&theme=monokai&margin-w=15&margin-h=15&column=7)
-<br>
-<br>
+![trophy](https://github-profile-trophy.vercel.app/?username=MerAtim&theme=monokai&margin-w=15&margin-h=15&column=7)  
+<br>  
+<br>  
 ![Profile views](https://komarev.com/ghpvc/?username=MerAtim&color=brightgreen&style=flat-square)  
 
 ## 🎵 Listening 🎧
 
-[![Song Badge](https://img.shields.io/badge/🎧%20Listening%20to-Shania%20Twain%20--%20Whose%20Bed%20Have%20Your%20Boots%20Been%20Under%3F-pink)](https://open.spotify.com/intl-es/track/0vtvjbeDqVSDl9rdpaQK6N?si=7aa3e2c30e8c4b19)
-<br>
-<br>
+[![Song Badge](https://img.shields.io/badge/🎧%20Listening%20to-Shania%20Twain%20--%20Whose%20Bed%20Have%20Your%20Boots%20Been%20Under%3F-pink)](https://open.spotify.com/intl-es/track/0vtvjbeDqVSDl9rdpaQK6N?si=7aa3e2c30e8c4b19)  
+<br>  
+<br>  
+
+<!-- Pacman claro/oscuro -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/pacman-contribution-graph-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/pacman-contribution-graph.svg" />
   <img src="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/pacman-contribution-graph.svg" />
 </picture>
-<br>
-<br>
-<img src="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
 
+<br>  
+<br>  
 
-###
+<!-- Snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
+</picture>
+
+###  
 
 <div>
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&text=Gracias%20por%20visitar%20mi%20perfil%20%F0%9F%8E%89&fontSize=35&fontColor=ff7f50&fontAlign=50&fontAlignY=50&rotate=0&stroke=e75925&strokeWidth=2&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
 </div>
 
-###
+###  
 
 ✨ *"El código es mi herramienta, la creatividad mi motor, y el aprendizaje mi camino."* ✨
