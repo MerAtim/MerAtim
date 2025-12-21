@@ -180,12 +180,6 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
 ![](https://github-readme-streak-stats.herokuapp.com/?user=MerAtim&theme=monokai&hide_border=false)  
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MerAtim&theme=monokai&hide_border=false&layout=compact)  
 
-## 🏆 GitHub Achievements
-
-![trophy](https://github-profile-trophy.vercel.app/?username=MerAtim&theme=monokai&margin-w=15&margin-h=15&column=7)  
-<br>  
-<br>  
-![Profile views](https://komarev.com/ghpvc/?username=MerAtim&color=brightgreen&style=flat-square)  
 
 ## 🎵 Listening 🎧
 
