@@ -183,7 +183,7 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
 
 ## 🎵 Listening 🎧
 
-[![Song Badge](https://img.shields.io/badge/🎧%20Listening%20to-Shania%20Twain%20--%20Whose%20Bed%20Have%20Your%20Boots%20Been%20Under%3F-pink)](https://open.spotify.com/intl-es/track/0vtvjbeDqVSDl9rdpaQK6N?si=7aa3e2c30e8c4b19)  
+[![Song Badge](https://img.shields.io/badge/🎧%20Listening%20to-Los%20Tucu%20Tucu%20--%20Me%20Presento%20Tucumán-pink)](https://open.spotify.com/intl-es/track/2sW76qP9jHtrGv4SMTDSO4?si=1dc96aa70eb845cb)
 <br>  
 <br>  
 
