@@ -194,13 +194,12 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
 <br>  
 <br>  
 
-<!-- Snake -->
+<!-- Snake claro/oscuro -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/MerAtim/MerAtim@output/snake.svg" alt="Snake contributions" />
 </picture>
-
 ###  
 
 <div>
