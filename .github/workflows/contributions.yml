@@ -44,6 +44,13 @@ jobs:
           mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg 2>/dev/null || true
           ls -la dist/
 
+      - name: rename snake files
+        run: |
+          ls -la dist/ || true
+          test -f dist/github-contribution-grid-snake.svg && mv dist/github-contribution-grid-snake.svg dist/snake.svg || echo "snake.svg no generado"
+          test -f dist/github-contribution-grid-snake-dark.svg && mv dist/github-contribution-grid-snake-dark.svg dist/snake-dark.svg || echo "snake-dark.svg no generado"
+          ls -la dist/
+
       # Publicar en branch output
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
