@@ -19,26 +19,38 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # Generar snake
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: move snake files to dist
+        run: |
+          mkdir -p dist
+          mv dist/github-contribution-grid-snake.svg dist/snake.svg 2>/dev/null || true
+          mv dist/github-contribution-grid-snake-dark.svg dist/snake-dark.svg 2>/dev/null || true
+          ls -la dist/
+
+      # Generar pacman
       - name: generate pacman
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_OPTIONS: --max-old-space-size=8192  
+          NODE_OPTIONS: --max-old-space-size=8192
 
       - name: move pacman files to dist
         run: |
           mkdir -p dist
-          mv pacman-contribution-graph.svg dist/ 2>/dev/null || true
-          mv pacman-contribution-graph-dark.svg dist/ 2>/dev/null || true
+          mv pacman-contribution-graph.svg dist/pacman.svg 2>/dev/null || true
+          mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg 2>/dev/null || true
           ls -la dist/
 
+      # Publicar en branch output
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
