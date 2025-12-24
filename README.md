@@ -173,9 +173,6 @@ I’m passionate about continuous learning, collaboration, and creating impactfu
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vuejs logo"  />
 </div>
 
-
-## 📊 GitHub Stats
-
 ![](https://github-readme-stats.vercel.app/api?username=MerAtim&theme=monokai&hide_border=false&include_all_commits=true&count_private=true)  
 ![](https://github-readme-streak-stats.herokuapp.com/?user=MerAtim&theme=monokai&hide_border=false)  
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MerAtim&theme=monokai&hide_border=false&layout=compact)  
