@@ -9,20 +9,13 @@ on:
       - main
 
 jobs:
-  generate:
+  generate-snake:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Create dist directory
-        run: mkdir -p dist
-
-      # Generar snake
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -33,31 +26,53 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generar pacman real
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  generate-pacman:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: generate-snake
+
+    steps:
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+
       - name: Generate pacman animation
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_OPTIONS: --max-old-space-size=8192
-        continue-on-error: true
+          NODE_OPTIONS: --max-old-space-size=16384
 
-      - name: Move pacman files to dist
+      - name: Move pacman files
         run: |
-          test -f pacman-contribution-graph.svg && mv pacman-contribution-graph.svg dist/pacman.svg || echo "pacman.svg no generado"
-          test -f pacman-contribution-graph-dark.svg && mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg || echo "pacman-dark.svg no generado"
+          ls -la
+          if [ -f "pacman-contribution-graph.svg" ]; then
+            mv pacman-contribution-graph.svg pacman.svg
+            echo "✓ pacman.svg generado"
+          fi
+          if [ -f "pacman-contribution-graph-dark.svg" ]; then
+            mv pacman-contribution-graph-dark.svg pacman-dark.svg
+            echo "✓ pacman-dark.svg generado"
+          fi
+          ls -la
 
-      - name: List all generated files
+      - name: Commit pacman files
         run: |
-          echo "=== All files in dist ==="
-          ls -la dist/
-
-      # Publicar en branch output
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pacman.svg pacman-dark.svg 2>/dev/null || true
+          git commit -m "Update pacman animation" || echo "No changes to commit"
+          git push || echo "Nothing to push"
