@@ -33,38 +33,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Verify snake files
-        run: |
-          echo "=== Snake files ==="
-          ls -la dist/
-
-      # Generar pacman
+      # Generar pacman real
       - name: Generate pacman animation
-        uses: Platane/snk@v3
-        id: pacman
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman.svg?color_dots=#fb8c00,#ffb74d,#ffe0b2,#fff8e1,#ffffff&color_snake=#fb8c00
-            dist/pacman-dark.svg?palette=github-dark&color_dots=#fb8c00,#ffb74d,#ffe0b2,#fff8e1,#1a1b27&color_snake=#fb8c00
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_OPTIONS: --max-old-space-size=8192
         continue-on-error: true
 
-      # Alternativa: usar el action de pacman si prefieres el estilo original
-      # - name: Generate pacman (alternative)
-      #   uses: abozanona/pacman-contribution-graph@main
-      #   with:
-      #     github_user_name: ${{ github.repository_owner }}
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     NODE_OPTIONS: --max-old-space-size=8192
-      #   continue-on-error: true
-      #
-      # - name: Move pacman files
-      #   run: |
-      #     test -f pacman-contribution-graph.svg && mv pacman-contribution-graph.svg dist/pacman.svg || true
-      #     test -f pacman-contribution-graph-dark.svg && mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg || true
+      - name: Move pacman files to dist
+        run: |
+          test -f pacman-contribution-graph.svg && mv pacman-contribution-graph.svg dist/pacman.svg || echo "pacman.svg no generado"
+          test -f pacman-contribution-graph-dark.svg && mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg || echo "pacman-dark.svg no generado"
 
       - name: List all generated files
         run: |
