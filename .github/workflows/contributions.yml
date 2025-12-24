@@ -17,43 +17,63 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Create dist directory
+        run: mkdir -p dist
 
       # Generar snake
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake animation
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: rename snake files
+      - name: Verify snake files
         run: |
-          ls -la dist/ || true
-          test -f dist/github-contribution-grid-snake.svg && mv dist/github-contribution-grid-snake.svg dist/snake.svg || echo "snake.svg no generado"
-          test -f dist/github-contribution-grid-snake-dark.svg && mv dist/github-contribution-grid-snake-dark.svg dist/snake-dark.svg || echo "snake-dark.svg no generado"
+          echo "=== Snake files ==="
           ls -la dist/
 
       # Generar pacman
-      - name: generate pacman
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Generate pacman animation
+        uses: Platane/snk@v3
+        id: pacman
         with:
           github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/pacman.svg?color_dots=#fb8c00,#ffb74d,#ffe0b2,#fff8e1,#ffffff&color_snake=#fb8c00
+            dist/pacman-dark.svg?palette=github-dark&color_dots=#fb8c00,#ffb74d,#ffe0b2,#fff8e1,#1a1b27&color_snake=#fb8c00
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_OPTIONS: --max-old-space-size=8192
+        continue-on-error: true
 
-      - name: move pacman files to dist
+      # Alternativa: usar el action de pacman si prefieres el estilo original
+      # - name: Generate pacman (alternative)
+      #   uses: abozanona/pacman-contribution-graph@main
+      #   with:
+      #     github_user_name: ${{ github.repository_owner }}
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     NODE_OPTIONS: --max-old-space-size=8192
+      #   continue-on-error: true
+      #
+      # - name: Move pacman files
+      #   run: |
+      #     test -f pacman-contribution-graph.svg && mv pacman-contribution-graph.svg dist/pacman.svg || true
+      #     test -f pacman-contribution-graph-dark.svg && mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg || true
+
+      - name: List all generated files
         run: |
-          mkdir -p dist
-          test -f pacman-contribution-graph.svg && mv pacman-contribution-graph.svg dist/pacman.svg || echo "pacman.svg no generado"
-          test -f pacman-contribution-graph-dark.svg && mv pacman-contribution-graph-dark.svg dist/pacman-dark.svg || echo "pacman-dark.svg no generado"
+          echo "=== All files in dist ==="
           ls -la dist/
 
       # Publicar en branch output
-      - name: push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
