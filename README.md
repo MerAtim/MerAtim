@@ -135,9 +135,6 @@ I'm passionate about continuous learning, collaboration, and creating impactful 
 </details>
 
 
-
-## GitHub Stats
-
 <div align="center">
 
 ![](https://github-readme-stats.vercel.app/api?username=MerAtim&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
@@ -147,10 +144,6 @@ I'm passionate about continuous learning, collaboration, and creating impactful 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MerAtim&theme=tokyonight&hide_border=true&layout=compact&langs_count=8)
 
 </div>
-
-
-
-## Contribution Graph
 
 <!-- Pacman -->
 <picture>
