@@ -5,8 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&pause=1000&color=F78BBE&center=true&vCenter=true&random=true&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;Creative+Designer+%F0%9F%8E%A8;Always+Learning+%F0%9F%A7%A0;Technician+in+Programming+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/MariaMercedesGuerra)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/maria-mercedes-atim)
-[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/polonia_345)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariamercedesatim-dev/)
 
 </div>
 
