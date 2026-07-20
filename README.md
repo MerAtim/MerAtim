@@ -17,19 +17,17 @@
 <td width="50%">
 
 ### ES
-Soy estudiante de la **Tecnicatura Universitaria en Programación** en la UTN FRSR.
-Me he formado en desarrollo Full-Stack con Java y en diseño gráfico con Adobe Illustrator y Photoshop.
-Tengo experiencia trabajando en equipos ágiles, desarrollando proyectos con tecnologías como **HTML, CSS, JavaScript, Java, Python** y distintos frameworks.
-Me apasiona el aprendizaje continuo, la colaboración y la creación de soluciones tecnológicas con impacto.
+Soy **Programadora Full-Stack** egresada de la UTN FRSR.  
+Me especializo en desarrollo con **Java, JavaScript, Python** y frameworks modernos como **React, Vue.js y Spring Boot**.  
+Me apasiona el diseño creativo, la colaboración en equipos ágiles y la creación de soluciones tecnológicas con impacto real.  
 
 </td>
 <td width="50%">
 
 ### EN
-I'm pursuing a **Technician in Programming** degree at UTN FRSR.
-I've trained in Full-Stack development with Java and Graphic Design with Adobe Illustrator and Photoshop.
-I have experience working in agile teams, building projects with **HTML, CSS, JavaScript, Java, Python** and several frameworks.
-I'm passionate about continuous learning, collaboration, and creating impactful tech solutions.
+I'm a **Full-Stack Developer** graduated from UTN FRSR.  
+Skilled in **Java, JavaScript, Python**, and modern frameworks like **React, Vue.js, and Spring Boot**.  
+Passionate about creative design, agile teamwork, and building impactful tech solutions.  
 
 </td>
 </tr>
@@ -164,11 +162,12 @@ I'm passionate about continuous learning, collaboration, and creating impactful 
 
 <div align="center">
 
-[![Song Badge](https://img.shields.io/badge/Listening%20to-Los%20Tucu%20Tucu%20•%20Me%20Presento%20Tucumán-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/track/2sW76qP9jHtrGv4SMTDSO4?si=1dc96aa70eb845cb)
+[![Song Badge](https://img.shields.io/badge/Listening%20to-Shania%20Twain%20•%20Whose%20Bed%20Have%20Your%20Boots%20Been%20Under%3F-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/track/0vtvjbeDqVSDl9rdpaQK6N?si=94c6134f2bd3454d)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=24" width="100%" />
 
 *"El código es mi herramienta, la creatividad mi motor, y el aprendizaje mi camino."*
 
 </div>
+
 
