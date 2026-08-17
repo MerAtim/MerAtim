@@ -162,7 +162,7 @@ Passionate about creative design, agile teamwork, and building impactful tech so
 
 <div align="center">
 
-[![Song Badge](https://img.shields.io/badge/Listening%20to-Shania%20Twain%20•%20Whose%20Bed%20Have%20Your%20Boots%20Been%20Under%3F-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/track/0vtvjbeDqVSDl9rdpaQK6N?si=94c6134f2bd3454d)
+[![Song Badge](https://img.shields.io/badge/Listening%20to-Luc%C3%ADa%20Ceresani%20%E2%80%A2%20De%20Pampa%20y%20Cielo-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/track/2nrNYd7idhKsp6ymebrpYM?si=2ce28b5fe4b74dce)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=24" width="100%" />
 
