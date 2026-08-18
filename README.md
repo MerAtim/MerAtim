@@ -42,6 +42,8 @@ Passionate about creative design, agile teamwork, and building impactful tech so
 | [**PERN Stack**](https://github.com/MerAtim/PERNStack) | Proyecto Full-Stack con integración completa de frontend y backend | PostgreSQL, Express, React, Node.js |
 | [**CapyTareas**](https://github.com/MerAtim/CapyTareas) | Gestor de tareas colaborativo enfocado en productividad | React, Node.js |
 | [**CapyMarket**](https://github.com/MerAtim/CapyMarket) | E-commerce con carrito de compras e integración MercadoPago | React, PostgreSQL |
+| [**CapyMeal**](https://github.com/CapyMeal/CapyMeal.git) | Diario de registro de comidas | PHP, Vue |
+| [**MediConnect**](https://github.com/MerAtim/MediConnect.git) | Gestor de turnos médicos | Java, Springboot, React |
 
 
 
