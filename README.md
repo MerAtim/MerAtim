@@ -197,22 +197,6 @@ I care about code that can be maintained: **tests, layered architecture and CI/C
 
 </div>
 
-<!-- Pacman -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MerAtim/MerAtim/output/pacman-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MerAtim/MerAtim/output/pacman.svg" />
-  <img src="https://raw.githubusercontent.com/MerAtim/MerAtim/output/pacman.svg" alt="Pacman contribution graph" width="100%" />
-</picture>
-
-<br>
-
-<!-- Snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MerAtim/MerAtim/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MerAtim/MerAtim/output/snake.svg" />
-  <img src="https://raw.githubusercontent.com/MerAtim/MerAtim/output/snake.svg" alt="Snake contribution graph" width="100%" />
-</picture>
-
 
 <div align="center">
 
