@@ -185,25 +185,3 @@ I care about code that can be maintained: **tests, layered architecture and CI/C
 *"El código es mi herramienta, la creatividad mi motor, y el aprendizaje mi camino."*
 
 </div>
-
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=MerAtim&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=MerAtim&theme=tokyonight&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=MerAtim&theme=tokyonight&hide_border=true&layout=compact&langs_count=8)
-
-</div>
-
-
-<div align="center">
-
-[![Song Badge](https://img.shields.io/badge/Listening%20to-Luc%C3%ADa%20Ceresani%20%E2%80%A2%20De%20Pampa%20y%20Cielo-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/track/2nrNYd7idhKsp6ymebrpYM?si=2ce28b5fe4b74dce)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=24" width="100%" />
-
-*"El código es mi herramienta, la creatividad mi motor, y el aprendizaje mi camino."*
-
-</div>
