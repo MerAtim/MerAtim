@@ -43,13 +43,13 @@ I care about code that can be maintained: **tests, layered architecture and CI/C
 
 ## Currently Building
 
-🚧 **[Rinde](https://github.com/MerAtim/Rinde)** — Finanzas personales para Argentina y LatAm: registrar gastos en varias cuentas y monedas, convertir con la cotización que corresponda (oficial, MEP, CCL, blue) y ver reportes en pesos constantes. La pregunta que responde: ¿me rinde el sueldo?
+🚧 **[Rinde](https://github.com/MerAtim/Rinde)** es una app de finanzas personales para Argentina y LatAm: registrar gastos en varias cuentas y monedas, convertir con la cotización que corresponda (oficial, MEP, CCL, blue) y ver reportes en pesos constantes. La pregunta que responde: ¿me rinde el sueldo?
 
 En construcción y desplegado desde el primer día. Monolito modular con FastAPI y React, cada decisión importante registrada en un [ADR](https://github.com/MerAtim/Rinde/tree/main/docs/adr), despliegue automático al integrar en `main` y CI con tipos, linters, tests, escaneo de secretos y de imágenes. El avance está en el [roadmap](https://github.com/MerAtim/Rinde/blob/main/docs/roadmap.md).
 
 `Python` · `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `React` · `TypeScript` · `Docker` · `GitHub Actions`
 
-*Work in progress: personal finance for Argentina and LatAm — multi-currency, exchange-rate aware, inflation-adjusted reports. Deployed since day one.*
+*Work in progress: personal finance for Argentina and LatAm. Multi-currency, exchange-rate aware, inflation-adjusted reports. Deployed since day one.*
 
 
 ## Featured Projects
