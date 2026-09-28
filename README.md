@@ -56,7 +56,7 @@ En construcción y desplegado desde el primer día. Monolito modular con FastAPI
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| **E-learning Platform** 🔒 | Pasantía. Plataforma en producción para una academia de programación: ejercicios de código autoevaluados, gamificación, pagos y automatización de emails. Repo privado del cliente. | Laravel, Vue 3, PostgreSQL, PHPUnit, Vitest, Docker |
+| **E-learning Platform** | Pasantía. Plataforma en producción para una academia de programación: ejercicios de código autoevaluados, gamificación, pagos y automatización de emails. Repo privado del cliente. | Laravel, Vue 3, PostgreSQL, PHPUnit, Vitest, Docker |
 | [**CapyMeal**](https://github.com/CapyMeal/CapyMeal) | Diario personal de comidas, en producción y bilingüe. Login OAuth2 con Google y Microsoft, verificación en dos pasos (2FA), sesión por cookie httpOnly cross-origin, export a PDF, PWA instalable y APK de Android. [App en vivo](https://capy-meal.vercel.app) | Vue 3, Vuetify, Laravel 12, PostgreSQL, GitHub Actions, Sentry |
 | [**MedConnect**](https://github.com/MerAtim/MediConnect) | Gestión de turnos e historias clínicas con roles. Arquitectura hexagonal con Value Objects, JWT revocable en cookie httpOnly, historia clínica cifrada AES-256-GCM y más de 260 tests. | Java 25, Spring Boot 3.5, React 18, PostgreSQL, Flyway, Testcontainers, Docker |
 | [**Ferretería San Francisco**](https://www.ferreteriasanfrancisco.com.ar) | Sitio corporativo en producción. Actué como Scrum Master: coordinación del equipo, testing manual y puesta en producción del dominio. | Scrum, QA Manual, HTML/CSS/JS |
