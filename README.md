@@ -164,7 +164,7 @@ En construcción y desplegado desde el primer día. Monolito modular con FastAPI
 
 ![](https://github-readme-stats.vercel.app/api?username=MerAtim&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=MerAtim&theme=tokyonight&hide_border=true)
+![](https://streak-stats.demolab.com/?user=MerAtim&theme=tokyonight&hide_border=true&timezone=America/Argentina/Buenos_Aires)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MerAtim&theme=tokyonight&hide_border=true&layout=compact&langs_count=8)
 
