@@ -43,13 +43,21 @@ I care about code that can be maintained: **tests, layered architecture and CI/C
 
 ## Currently Building
 
-🚧 **[Rinde](https://github.com/MerAtim/Rinde)** es una app de finanzas personales para Argentina y LatAm: registrar gastos en varias cuentas y monedas, convertir con la cotización que corresponda (oficial, MEP, CCL, blue) y ver reportes en pesos constantes. La pregunta que responde: ¿me rinde el sueldo?
+🧾 **[Facturador Fácil](https://github.com/MerAtim/facturador-facil)** es una app móvil para emitir comprobantes electrónicos de ARCA sin vueltas: ingresás el precio que cobrás y la app calcula el neto y el IVA. Nace de las limitaciones del facturador oficial.
 
-En construcción y desplegado desde el primer día. Monolito modular con FastAPI y React, cada decisión importante registrada en un [ADR](https://github.com/MerAtim/Rinde/tree/main/docs/adr), despliegue automático al integrar en `main` y CI con tipos, linters, tests, escaneo de secretos y de imágenes. El avance está en el [roadmap](https://github.com/MerAtim/Rinde/blob/main/docs/roadmap.md).
+En desarrollo. No tiene servidor intermedio: la app habla directo con los web services de ARCA, y la clave privada se genera en el teléfono y nunca sale de ahí. Monorepo con Clean Architecture, módulos nativos propios, [modelo de amenazas](https://github.com/MerAtim/facturador-facil/blob/main/docs/seguridad/modelo_de_amenazas.md) y pruebas de punta a punta en emulador dentro de la CI.
+
+`TypeScript` · `React Native` · `Expo` · `Kotlin` · `SQLite` · `Vitest` · `Maestro` · `GitHub Actions`
+
+*Work in progress: mobile app to issue Argentine electronic invoices (ARCA) with no backend. The private key is generated on the device and never leaves it.*
+
+🚧 **[Rinde](https://github.com/MerAtim/Rinde)** es una app de finanzas personales para Argentina y LatAm. La pregunta que responde: ¿me rinde el sueldo?
+
+Ya funcionan las cuentas en varias monedas (efectivo, banco, tarjeta, billeteras virtuales y cripto), los ingresos y gastos, las transferencias entre cuentas y los filtros. Lo siguiente es convertir con la cotización que corresponda (oficial, MEP, CCL, blue) y sumar reportes en pesos constantes. Monolito modular con FastAPI y React, cada decisión importante registrada en un [ADR](https://github.com/MerAtim/Rinde/tree/main/docs/adr), despliegue automático al integrar en `main` y CI con tipos, linters, tests, escaneo de secretos y de imágenes. El avance está en el [roadmap](https://github.com/MerAtim/Rinde/blob/main/docs/roadmap.md).
 
 `Python` · `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `React` · `TypeScript` · `Docker` · `GitHub Actions`
 
-*Work in progress: personal finance for Argentina and LatAm. Multi-currency, exchange-rate aware, inflation-adjusted reports. Deployed since day one.*
+*Work in progress: personal finance for Argentina and LatAm. Multi-currency accounts, income, expenses and transfers already work. Exchange-rate conversion and inflation-adjusted reports come next.*
 
 
 ## Featured Projects
@@ -58,7 +66,7 @@ En construcción y desplegado desde el primer día. Monolito modular con FastAPI
 |---------|-------------|------|
 | **E-learning Platform** | Pasantía. Plataforma en producción para una academia de programación: ejercicios de código autoevaluados, gamificación, pagos y automatización de emails. Repo privado del cliente. | Laravel, Vue 3, PostgreSQL, PHPUnit, Vitest, Docker |
 | [**CapyMeal**](https://github.com/CapyMeal/CapyMeal) | Diario personal de comidas, en producción y bilingüe. Login OAuth2 con Google y Microsoft, verificación en dos pasos (2FA), sesión por cookie httpOnly cross-origin, export a PDF, PWA instalable y APK de Android. [App en vivo](https://capy-meal.vercel.app) | Vue 3, Vuetify, Laravel 12, PostgreSQL, GitHub Actions, Sentry |
-| [**MedConnect**](https://github.com/MerAtim/MediConnect) | Gestión de turnos e historias clínicas con roles. Arquitectura hexagonal con Value Objects, JWT revocable en cookie httpOnly, historia clínica cifrada AES-256-GCM y más de 260 tests. | Java 25, Spring Boot 3.5, React 18, PostgreSQL, Flyway, Testcontainers, Docker |
+| [**MedConnect**](https://github.com/MerAtim/MediConnect) | Gestión de turnos e historias clínicas con roles. Arquitectura hexagonal con Value Objects, JWT revocable en cookie httpOnly, historia clínica cifrada AES-256-GCM y más de 260 tests. Pasó por tres auditorías de seguridad y arquitectura. | Java 25, Spring Boot 3.5, React 18, PostgreSQL, Flyway, Testcontainers, Docker |
 | [**Ferretería San Francisco**](https://www.ferreteriasanfrancisco.com.ar) | Sitio corporativo en producción. Actué como Scrum Master: coordinación del equipo, testing manual y puesta en producción del dominio. | Scrum, QA Manual, HTML/CSS/JS |
 | [**CapyMarket**](https://github.com/MerAtim/CapyMarket) | E-commerce con carrito, gestión de productos y pagos integrados. | JavaScript, HTML/CSS, Mercado Pago |
 | [**CapyTareas**](https://github.com/MerAtim/CapyTareas) | Gestor de tareas con backend y frontend separados, contenedores y despliegue. | Java, JavaScript, Docker, Render |
@@ -73,6 +81,7 @@ En construcción y desplegado desde el primer día. Monolito modular con FastAPI
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -87,6 +96,7 @@ En construcción y desplegado desde el primer día. Monolito modular con FastAPI
 ![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/spring_security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Laravel](https://img.shields.io/badge/LARAVEL-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
@@ -99,6 +109,8 @@ En construcción y desplegado desde el primer día. Monolito modular con FastAPI
 
 ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF)
@@ -114,6 +126,7 @@ En construcción y desplegado desde el primer día. Monolito modular con FastAPI
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 </details>
 
