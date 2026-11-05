@@ -51,6 +51,8 @@ En desarrollo. No tiene servidor intermedio: la app habla directo con los web se
 
 *Work in progress: mobile app to issue Argentine electronic invoices (ARCA) with no backend. The private key is generated on the device and never leaves it.*
 
+---
+
 🚧 **[Rinde](https://github.com/MerAtim/Rinde)** es una app de finanzas personales para Argentina y LatAm. La pregunta que responde: ¿me rinde el sueldo?
 
 Ya funcionan las cuentas en varias monedas (efectivo, banco, tarjeta, billeteras virtuales y cripto), los ingresos y gastos, las transferencias entre cuentas y los filtros. Lo siguiente es convertir con la cotización que corresponda (oficial, MEP, CCL, blue) y sumar reportes en pesos constantes. Monolito modular con FastAPI y React, cada decisión importante registrada en un [ADR](https://github.com/MerAtim/Rinde/tree/main/docs/adr), despliegue automático al integrar en `main` y CI con tipos, linters, tests, escaneo de secretos y de imágenes. El avance está en el [roadmap](https://github.com/MerAtim/Rinde/blob/main/docs/roadmap.md).
