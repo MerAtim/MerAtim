@@ -12,7 +12,7 @@
 </div>
 
 
-## About Me
+## <img src="https://api.iconify.design/lucide/user-round.svg?color=%23F78BBE" height="24" /> About Me
 
 <table>
 <tr>
@@ -47,7 +47,7 @@ Looking for my first full time role as a backend or full stack developer.
 > **Portafolio completo con proyectos, logros técnicos y CV descargable: [meratim.github.io](https://meratim.github.io)**
 
 
-## Featured: Rinde
+## <img src="https://api.iconify.design/lucide/wallet.svg?color=%23F78BBE" height="24" /> Featured: Rinde
 
 <a href="https://rinde.meratim.workers.dev"><img src="https://raw.githubusercontent.com/MerAtim/Rinde/main/docs/capturas/dashboard.png" alt="Dashboard de Rinde: patrimonio, su evolución y los ingresos y gastos de cada mes" width="100%" /></a>
 
@@ -65,7 +65,7 @@ Monolito modular con FastAPI y React, con la regla de dependencia entre capas ve
 *Personal finance for Argentina and LatAm. Live demo account with sample data, no sign up: it deletes itself after two hours. The free API host sleeps when idle, so the first visit can take about a minute.*
 
 
-## Currently Building
+## <img src="https://api.iconify.design/lucide/hammer.svg?color=%23F78BBE" height="24" /> Currently Building
 
 🧾 **[Facturador Fácil](https://github.com/MerAtim/facturador-facil)** es una app móvil para emitir comprobantes electrónicos de ARCA sin vueltas: ingresás el precio que cobrás y la app calcula el neto y el IVA. Nace de las limitaciones del facturador oficial.
 
@@ -76,7 +76,7 @@ No tiene servidor intermedio: la app habla directo con los web services de ARCA,
 *Work in progress: mobile app to issue Argentine electronic invoices (ARCA) with no backend. The private key is generated on the device and never leaves it.*
 
 
-## Featured Projects
+## <img src="https://api.iconify.design/lucide/folder-code.svg?color=%23F78BBE" height="24" /> Featured Projects
 
 | Project | Description | Tech |
 |---------|-------------|------|
@@ -88,7 +88,7 @@ No tiene servidor intermedio: la app habla directo con los web services de ARCA,
 | [**CapyTareas**](https://github.com/MerAtim/CapyTareas) | Gestor de tareas con backend y frontend separados, contenedores y despliegue. | Java, JavaScript, Docker, Render |
 
 
-## Tech Stack
+## <img src="https://api.iconify.design/lucide/layers.svg?color=%23F78BBE" height="24" /> Tech Stack
 
 <details open>
 <summary><b>Languages</b></summary>
@@ -196,14 +196,14 @@ No tiene servidor intermedio: la app habla directo con los web services de ARCA,
 </details>
 
 
-## GitHub Stats
+## <img src="https://api.iconify.design/lucide/chart-column.svg?color=%23F78BBE" height="24" /> GitHub Stats
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=MerAtim&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=MerAtim&theme=default&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MerAtim&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=MerAtim&theme=tokyonight&hide_border=true&count_private=true&show_icons=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=MerAtim&theme=default&hide_border=true&count_private=true&show_icons=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MerAtim&theme=tokyonight&hide_border=true&count_private=true&show_icons=true" alt="GitHub stats" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MerAtim&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
