@@ -254,7 +254,7 @@ No tiene servidor intermedio: la app habla directo con los web services de ARCA,
 
 <div align="center">
 
-[![Song Badge](https://img.shields.io/badge/Listening%20to-Luc%C3%ADa%20Ceresani%20%E2%80%A2%20De%20Pampa%20y%20Cielo-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/track/2nrNYd7idhKsp6ymebrpYM?si=2ce28b5fe4b74dce)
+[![Song Badge](https://img.shields.io/badge/Listening%20to-Chaque%C3%B1o%20Palavecino%20%E2%80%A2%20El%20Canto%20del%20Tero%20Tero-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-es/track/20lcse3CtLWq7FISLJfic2)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=24" width="100%" />
 
