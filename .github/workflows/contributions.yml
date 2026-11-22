@@ -76,3 +76,42 @@ jobs:
           git add pacman.svg pacman-dark.svg 2>/dev/null || true
           git commit -m "Update pacman animation" || echo "No changes to commit"
           git push || echo "Nothing to push"
+
+  generate-breakout-3d:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: generate-pacman
+
+    steps:
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+
+      - name: Generate breakout animation
+        uses: cyprieng/github-breakout@v1
+        with:
+          github_username: ${{ github.repository_owner }}
+          output_path: ./breakout-out/
+
+      - name: Move breakout files
+        run: |
+          mv breakout-out/light.svg breakout.svg
+          mv breakout-out/dark.svg breakout-dark.svg
+          rm -rf breakout-out
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit breakout and 3D files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add breakout.svg breakout-dark.svg profile-3d-contrib
+          git commit -m "Update breakout and 3D calendar" || echo "No changes to commit"
+          git push || echo "Nothing to push"
